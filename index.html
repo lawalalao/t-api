@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tea API</title>
+    <meta name="description" content="A cool Tea API">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="preload" href="./public/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="./public/style.css"></noscript>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+    <link rel="shortcut icon" type="image/x-icon" href="./public/favicon.ico">
+  </head>
+  <body>
+    <div id='sampleui'>
+      <div class = "row">
+        <div class = "col-md-7 col-sm-12 title">
+          <h1>Welcome to T-API</h1>
+          <p>The Tea API for all Tea Lovers~</p>
+          <div class="dropdown">
+            <button class="btn btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Routes
+            </button>
+            <div id = "routes" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Get All Tea</a>
+              <a class="dropdown-item" href="#">Get One Tea</a>
+              <a class="dropdown-item" href="#">Post new comment</a>
+              <a class="dropdown-item" href="#">Post New Tea (Admin only)</a>
+              <a class="dropdown-item" href="#">Delete All Tea (Admin only)</a>
+              <a class="dropdown-item" href="#">Delete One Tea (Admin only)</a>
+            </div>
+          </div>
+            <div class="col-md-12 col-sm-12 none" id="display">
+            </div>
+               
+        </div>
+        <div id="tea-gif"class = "col-md-5 col-sm-12">
+          <video autoplay muted loop src="public/tea.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+        </div>
+      </div>
+       
+      
+      <!-- Footer -->
+      <footer class="page-footer">
+        
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-1">
+         
+          © Made with ❤️ By<a href="https://github.com/victoria-lo/TAPI"> Lawal ALAO</a>
+        </div>
+        <!-- Copyright -->
+
+      </footer>
+      <!-- Footer -->
+    
+      
+    <script defer src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script defer src="/public/client.js"></script>     
+  </body>
+</html>
